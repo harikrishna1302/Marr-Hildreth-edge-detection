@@ -13,6 +13,6 @@ So, operator should be careful of being tuned at desired scale.
 * VisualStudio.
 * OpenCV library.
 * C++ programming.<br />
-Make sure, the images, output and filters directories should be stored in the same project file directory. Also, all the three directories names should be given in command line arguments in visualstudio.
-* ./images ./filters ./output
+Make sure, the images, output and filters directories should be stored in the same project file directory. Also, all the three directories names should be given in command line arguments in visualstudio. <br />
+./images ./filters ./output
 ## Implementation
