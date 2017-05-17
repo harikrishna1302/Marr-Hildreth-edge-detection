@@ -11,7 +11,7 @@ So, operator should be careful of being tuned at desired scale.
 * Find zero crossing to the above resultant image.
 ## Technologies
 * VisualStudio.
-* OpenCV library.
+* OpenCV and Boost libraries.
 * C++ programming.<br />
 Make sure, the images, output and filters directories should be stored in the same project file directory. Also, all the three directories names should be given in command line arguments in visualstudio. <br />
 ./images ./filters ./output
