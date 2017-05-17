@@ -6,9 +6,9 @@ Before that, recall Marr-Hildreth arguments:
 So, operator should be careful of being tuned at desired scale.
 
 ## Algorithm
-* Filter image with NxN Gaussian filter.
+* Filter the input image using NxN Gaussian filter.
 * Compute Laplacian using 3x3 mask.
-* Find zero crossing of image from step 2.
+* Find zero crossing to the above resultant image.
 ## Technologies
 * VisualStudio.
 * OpenCV library.
