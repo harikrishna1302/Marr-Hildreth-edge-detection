@@ -14,7 +14,7 @@ So, operator should be careful of being tuned at desired scale.
 * OpenCV and Boost libraries.
 * C++ programming.<br />
 Make sure, the images, output and filters directories should be stored in the same project file directory. Also, all the three directories names should be given in command line arguments in visualstudio. <br />
-./images ./filters ./output
+./images ./output ./filters
 ## Implementation
 Marr-Hildreth edge detection is implemented for all the input images through iterative process.
 * Input image is taken as gray scale image and it is converted to float image.
