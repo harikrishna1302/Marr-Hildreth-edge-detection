@@ -16,3 +16,8 @@ So, operator should be careful of being tuned at desired scale.
 Make sure, the images, output and filters directories should be stored in the same project file directory. Also, all the three directories names should be given in command line arguments in visualstudio. <br />
 ./images ./filters ./output
 ## Implementation
+Marr-Hildreth edge detection is implemented for all the input images through iterative process.
+* Input image is taken as gray scale image and it is converted to float image.
+* Apply gaussian filter to blur the float image and repeat it for 9 times.
+* Compute laplacian for the blurred image.
+* Find the zero crossing for each pixels for the resultant image to get the final edge map.
