@@ -20,4 +20,6 @@ Marr-Hildreth edge detection is implemented for all the input images through ite
 * Input image is taken as gray scale image and it is converted to float image.
 * Apply gaussian filter to blur the float image and repeat it for 9 times.
 * Compute laplacian for the blurred image.
-* Find the zero crossing for each pixels for the resultant image to get the final edge map.
+* Find the zero crossing for each pixels for the resultant image to get the final edge map.<br />
+
+After execution, the output images will occur in output folder which is present in the project file directory.
